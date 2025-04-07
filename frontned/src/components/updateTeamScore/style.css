@@ -1,0 +1,57 @@
+form {
+    background-color: #2d2d2d;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 350px;
+    margin: 20px auto;
+  }
+  
+  h2 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #bbb;
+    font-weight: 600;
+  }
+  
+  input, select, button {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  
+  input, select {
+    background-color: #444;
+    border: 1px solid #555;
+    color: #fff;
+  }
+  
+  button {
+    background-color: #8b1e3b;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #b64c63;
+  }
+  
+  input:focus, select:focus {
+    border-color: #8b1e3b;
+    outline: none;
+  }
+  
+  button:focus {
+    outline: none;
+  }
